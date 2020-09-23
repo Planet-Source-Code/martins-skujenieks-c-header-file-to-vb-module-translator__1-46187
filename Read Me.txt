@@ -1,0 +1,83 @@
+
+
+
+ Thank you for downloading this project! 
+
+ It is my second attempt in C++ to VB translation.
+
+ It all started when I was trying to translate 
+ WINGDI.H. It took me three days to complete about
+ 1/3 of the translation. I decided to write program
+ which will do it automatically.
+ First version of the program already in it's first
+ run translated about 1/2 of the code in less than
+ 30 seconds. 
+ I improved the translation algorythm and wrote 
+ this program completely from null. In the first
+ run it translated at already about 2/3 of the 
+ header file in less than 10 seconds. I improved 
+ some more parts of the algorythm and here it is...
+
+ The core of this project is C_TO_VB.BAS module.
+ You can add this module to your own projects or
+ user interfaces.
+
+ Module currently is able to automatically:
+   - remove unsupported compilier flags
+   - convert remarks
+   - convert boolean operators (only And, Or)
+   - convert hexadecimal values 
+   - convert constant definitions 
+   - convert type definitions
+   - remove casts
+
+ Following features under development:
+   - enumeration conversion
+   - API declaration conversion
+
+ Module can not and will not be able to convert 
+ following code parts, due to the complexity and 
+ many variations of C++ code:
+   - subs, functions and macros
+
+ Also remember that the C_TO_VB.BAS module can not 
+ convert 100% of the source-code. Average efficiency 
+ is 80-90%. After using this tool you can convert 
+ the remaining code manually.
+
+ Future versions will be more intellegent and I hope
+ they will be able to translate 95-99% of the code.
+
+
+--------------------------------------------------------
+ C++ Header Files
+--------------------------------------------------------
+
+ I included some Microsoft "win*" C++ header files (*.H)
+ for experimenting with this little module.
+
+ If you have MSVC++ installed, you can find header files
+ at MICROSOFT VISUAL STUDIO\VC98\INCLUDE\ folder.
+
+ If you haven't got MSVC++ installed, you still can get
+ these header files -- HTTP:\\MSDN.MICROSOFT.COM. 
+
+ 
+--------------------------------------------------------
+ Credits
+--------------------------------------------------------
+
+ C++ Header File to VB Module Converter
+ Copyright (C) Martins Skujenieks 2003
+
+ http://www.exe.times.lv
+ martins_s@mail.teliamtc.lv
+
+
+--------------------------------------------------------
+ Please vote at Planet-Source-Code.Com
+--------------------------------------------------------
+
+ If you think there is possibilities for this code
+ and there would be need to develop it further, 
+ please vote -- it doesn't take so long as you think :)
